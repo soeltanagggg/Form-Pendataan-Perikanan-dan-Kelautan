@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Pendataan Produksi Perikanan Tangkap</title>
+  </head>
+  <body>
+    <form>
+    <div class="container">
+        <h2 class="alert alert-primary text-center mt-3">FORMULIR PENDATAAN PRODUKSI PERIKANAN TANGKAP</h2>
+            <img src="download.png " style="display:block; margin:auto;"><br>
+           
+            <div class="row">
+                <div class="col-md-3">
+                    <label>Tanggal</label>
+                </div>
+                <div class="col-md-9">
+                    <input type="date" name="tanggal" class="form-control">
+                </div>
+            </div>
+            <hr size="10">
+                <h5 align="center">BLOK I: KETERANGAN TEMPAT USAHA</h5>
+            <hr size="10">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="Provinsi">101 Provinsi</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" name="" class="form-control" placeholder="Masukan Provinsi Anda Tinggal" id="Provinsi">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="Kabupaten/Kota*)">102 Kabupaten/Kota*)</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" name="" class="form-control" placeholder="Masukan Kabupaten atau Kota tempat anda tinggal" id="Kabupaten/Kota*)">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="Kecamatan">103 Kecamatan</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" name="" class="form-control" placeholder="Masukan Kabupaten atau Kota tempat anda tinggal" id="Kecamatan">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="Desa/Kelurahan"> 104 Desa/Kelurahan*)</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" name="" class="form-control" placeholder="Masukan Kabupaten atau Kota tempat anda tinggal" id="Desan/Kelurahan">
+                            </div>
+                        </div>
+                    </div>
+                    <font size ="2" face=arial color black>Keterangan: *) coret yang tidak sesuai</font>
+                <hr size="10">
+                    <h5 align="center">BLOK II: IDENTITAS USAHA</h5>
+                <hr size="10">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="Nama Perusahan">201 Nama RTP/Perusahaan Perikanan</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="text" name="" class="form-control" placeholder="Masukan Nama RTP/Perusahaan Perikanan " id="Nama Perusahan">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="NIK">202 Nomor Induk Kependudukan/SIUP</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input type="number" name="" class="form-control" placeholder="Masukan Nama RTP/Perusahaan Perikanan "id="NIK">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="from-group">
+                            <label for="Jenis Usaha">203 Pilih Jenis Usaha</label>
+                            <select class="form-control"id="Jenis Usaha">
+                                <option>1. Penangkapan Ikan di laut </option>
+                                <option>2. Penangkapan Ikan di Perairan Umum</option>
+                            </select>
+                            <font size ="2" face=arial color black>jika memilih 1, maka lanjut ke 205</font> 
+                    </div>
+                    <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label >204 Jenis Perairan dan Ekosistem</label><br>
+                            <label for="Jenis Perairan" size="2">a. Jenis Perairan *)</label>
+                            <select class="form-control"id="Jenis Perairan">
+                                <option>1. Sungai</option>
+                                <option>2. Danau</option>
+                                <option>3. Waduk</option>
+                                <option>4. Rawa</option>
+                                <option>5. Genangan Air Laainnya</option>
+                            </select> 
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <label for="Nama Ekosistem">b. Nama Ekosistem **)</label>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Nama Ekosistem " id="Nama Ekosistem">
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class="from-group">
+                    <label for="Sarana Penangkapan">205 Sarana Penangkapan </label>
+                    <select class="form-control"id="Sarana Penangkapan">
+                        <option>1. Taanpa Perahu </option>
+                        <option>2. Perahu Tanpa Motor</option>
+                        <option>3. Perahu Motor Tempel</option>
+                        <option>3. Kapal Motor</option>
+                    </select>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label >206 Ukuran Perahu/Kapal</label><br>
+                            <label for="Motor Tempel" size="2">a. Perahu Motor Tempel</label>
+                            <Input input type="text" name="" class="form-control" placeholder="Masukan Ukuran dalam GT" id="Motor Tempel">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <label for="Kapal Motor">b. Kapal Motor</label>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Ukuran dalam GT" id="Kapal Motor">
+                        </div> 
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="ABK">207 Jumlah ABK</label>
+                        </div>
+                        <div class="col-md-9">
+                            <input type="number" name="" class="form-control" placeholder="Masukan Jumlah ABK "id="ABK">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label >208 Jenis Alat Tangkap</label><br>
+                            <label for="Alat Tangkap" size="2">a. Alat Tangkap Utama</label>
+                            <Input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap utama" id="Alat Tangkap">
+                            <label>Jumlah dalam Unit</label>
+                            <input type="text" class="form-control" placeholder="Masukan Jumlah Alata Tangkap Utama">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <label for="Alat Tambahan">b. Alat Tangkap Tambahan</label>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap Tambahan" id="Alat Tambahan">
+                            <label>Jumlah dalam Unit</label>
+                            <input type="text" class="form-control" placeholder="Masukan Jumlah Alata Tangkap Tambahan">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label for="Wilayah Tangkap">209 Wilayah Penangkapan Ikan ***)</label><br>
+                            <Input type="text" name="" class="form-control" placeholder="Contoh Format: WPP-000" id="Wilayah Tangkap">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <input type="text" name="" class="form-control" placeholder="Contoh Format: WPP-000" id="Wilayah Tangkap"> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label for="Daerah Perairan">210 Daerah Operasi Perairan</label><br>
+                            <Input type="text" name="" class="form-control" placeholder="Masukan Nama Daerah Penangkapan" id="Daerah Perairan">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Nama Daerah Penangkapan" id="Daaerah Perairan"> 
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="from-group">
+                    <label for="Daerah Asal">211 Daerah Asal Unit Penangkapan </label>
+                    <select class="form-control" id="Daerah Aal">
+                        <option>1. Dari Kabupaten Asal </option>
+                        <option>2. Dari Kabupaten Lain</option>
+                    </select>
+                    <font size ="2" face=arial color black>jika memilih 2, Sebutkan:</font> 
+                    <input type="text" name="" class="form-control" placeholder="Masukan Nama Kabupaten">
+                </div>
+                <hr size="5">
+                <font size ="2" face=arial color black>Note:</font><br>
+                <font size ="2" face=arial color black>*) Jenis Perairan diisi apabila melakukan usaha penangkapan ikan di Perairan Umum </font><br>
+                <font size ="2" face=arial color black>**) Hanya untuk Jenis Perairan Umum /PUD, khusus untuk Sungai, Danau dan Waduk, Nama Ekosistem mengikuti kode yang sesuai</font><br>
+                <font size ="2" face=arial color black>***) WPP diisi apabila melakukan usaha penangkapan ikan di laut, jika melakukan penangkapan lebih dari satu WPP, data produksi dicatat di kuesioner baru</font>
+        <hr size="10">
+            <h5 align="center">BLOK III: PRODUKSI PERIKANAN TANGKAP</h5>
+        <hr size="10"><br>
+                <label>301 Jumlah Trip Penangkapan Bulan Lalu</label>
+                    <input type="text" name="" class="form-control" placeholder="Jumlah Bulan Lalu" id="Jumlah Trip">
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label >302 Jenis Alat Tangkap Utama</label><br>
+                            <label for="Alat Tangkap Utama" size="2">a.Rata-rata volume hasil tangkapan yang dijual pertrip (Kg)</label>
+                            <Input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap utama" id="Alat Tangkap Utama">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <label for="Alat Tangkap Tambahan">b.Rata-rata volume hasil tangkapan yang tidak dijual pertrip (Kg)*)</label>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap Tambahan" id="Alat Tangkap Tambahan">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <label >303 Jenis Alat Tangkap Tambahan</label><br>
+                            <label for="Alat Tangkap Utama1" size="2">a Rata-rata volume hasil tangkapan yang dijual pertrip (Kg)</label>
+                            <Input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap utama" id="Alat Tangkap Utama1">
+                        </div> 
+                    </div>
+                    <div class="col-md-6">
+                        <div class="from-group">
+                            <br>
+                            <label for="Alat Tangkap Tambahan1">b Rata-rata volume hasil tangkapan yang tidak dijual pertrip (Kg)*)</label>
+                            <input type="text" name="" class="form-control" placeholder="Masukan Jenis Alat Tangkap Tambahan" id="Alat Tangkap Tambahan1">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <label>304 Biaya Operasi Penangkapan (BOP) per Bulan</label>
+                <div class="container">
+                        <table class="table">
+                            <thead>
+                                <tr align="center">
+                                    <th><label>Jenis BOP</label></th>
+                                    <th><label>volume</label></th>
+                                    <th><label>Satuan(Litter/Kg)</label></th>
+                                    <th><label>Harga(Rp.)</label></th>
+                                    <th><label>Nilai(Rp.)</label></td>  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr align="center">
+                                    <td>(1)</td>
+                                    <td>(2)</td>
+                                    <td>(3)</td>
+                                    <td>(4)</td>
+                                    <td>(5)</td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">1. Solar</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">2. Bensin</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">3. Oli</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">4. Minyak Tanah</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">5. Es</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">6. Garam</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">7. Umpan</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">8. Air Bersih</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">9. Perbekalan</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="left">10. Upah ABK</td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <label>305 Hasil Tangkapan Menurut Jenis Ikan (Alata Tangkap Utama)</304></label>
+                <div class="container">
+                        <table class="table">
+                            <thead>
+                                <tr align="center">
+                                    <th align="left"><label>Jenis Ikan Hasil Tangakapan </label></th>
+                                    <th><label>Proporsi(Persen)**)</label></th>
+                                    <th><label>Harga/Kg(Rp)</label></th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr align="center">
+                                    <td align="center">1.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">2.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">3.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">4.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">5.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">6.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">7.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">8.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">9.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">10.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">11.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">12.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">13.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">14.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">15.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <label>306 Hasil Tangkapan Menurut Jenis Ikan (Alata Tangkap Lainnya)</label>
+                <div class="container">
+                        <table class="table">
+                            <thead>
+                                <tr align="center">
+                                    <th align="left"><label>Jenis Ikan Hasil Tangakapan </label></th>
+                                    <th><label>Proporsi(Persen)**)</label></th>
+                                    <th><label>Harga/Kg(Rp)</label></th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr align="center">
+                                    <td align="center">1.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">2.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">3.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">4.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">5.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">6.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">7.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">8.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                   
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">9.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">10.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">11.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">12.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">13.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">14.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+                                <tr align="center">
+                                    <td align="center">15.<input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                    <td><input type="text"name=""></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                <hr size="5">
+                    <font size ="2" face=arial >Note:</font><br>
+                    <font size ="2" face=arial >*) Volume hasil tangkapan yang tidak dijual diantaranya seperti dimakan sendiri di rumah, diberikan kepada orang lain, dimakan di kapal, dll</font><br>
+                    <font size ="2" face=arial >**) Jumlah proporsi untuk seluruh jenis ikan adalah 100 persen</font><br>
+
+            <hr size="10">
+                <h5 align="center">BLOK IV. PENGESAHAN</h5>
+            <hr size="10">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="Responden">Nama Responden</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" name="" class="form-control" placeholder="Masukan Nama Responden" id="Responden">
+                    </div>
+                </div>
+            </div>
+            <br>
+           <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="No hp">No Telp/HP</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" name="" class="form-control" placeholder="Masukan Nomor yang dapat Dihubungi" id="No hp">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="Pengelola">Nama Pengelola Data</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" name="" class="form-control" placeholder="Masukan Nama Pengelola Data" id="Pengelola">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="Kode">Kode Pengelola Data/NIK</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" name="" class="form-control" placeholder="Masukan NIK" id="Kode">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="Pengelola">Nama Pengelola Data</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" name="" class="form-control" placeholder="Masukan Nama Pengelola Data" id="Pengelola">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label for="Tgl">Tanggal Pencatatan</label>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="date" name="" class="form-control" id="Tgl">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr size="10">
+                <h5 align="center">BLOK V. CATATAN</h5>
+            <hr size="10">
+            <font size ="3" face=arial>Apabila ada hal-hal yang memerlukan keterangan lebih lanjut, tuliskan pada blok ini. Selain informasi dari responden, Petugas pengolah data juga bisa menambahkan catatan untuk memperjelas masalah yang berkaitan dengan daftar isian.</font>
+            <textarea class="form-control"></textarea>
+            <br>
+            <input type="submit" value="Kumpulkan" size="20">
+            <hr size="10">
+            <br>
+            <br>
+            <br>
+        </form>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
